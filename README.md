@@ -9,7 +9,7 @@
 This project will display the following:
 
 - Site uses branching to return the result.
--jQuery is used to show and hide the result after questions are answered and submitted. (Tip: test your app several times with different answers.)
+- jQuery is used to show and hide the result after questions are answered and submitted. (Tip: test your app several times with different answers.)
 - Form gathers input from the user.
 - Variable names are descriptive of what they represent.
 - Web page is styled using Bootstrap and custom CSS.

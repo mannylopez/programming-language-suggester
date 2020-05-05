@@ -2,14 +2,116 @@
 <html>
 <head>
 	<title>Programming language suggester</title>
-  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-  <link href="css/styles.css" rel="stylesheet" type="text/css">
-  <script src="js/jquery-3.5.0.js"></script>
-  <script src="js/scripts.js"></script>
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+	<link href="css/styles.css" rel="stylesheet" type="text/css">
+	<script src="js/jquery-3.5.0.js"></script>
+	<script src="js/scripts.js"></script>
 </head>
 <body>
 	<div class="container">
-    <h1>Programming language suggester</h1>
-  </div>
+		<h1>Programming language suggester</h1>
+
+		<form id="questionnaire">
+			
+			<div class="form-check">
+				
+				<!-- Question 1 -->
+				<label>How do you prefer to define code blocks?</label>
+				<div class="radio">
+					<label>
+						<input type="radio" name="question1" value="javascript" checked>
+						{} curly braces
+					</label>
+				</div>
+				<div class="radio">
+						<label>
+							<input type="radio" name="question1" value="python">
+							_ indentation
+						</label>
+				</div>
+
+				<!-- Question 2 -->
+				<label>Do you plan on doing mobile development?</label>
+				<div class="radio">
+					<label>
+						<input type="radio" name="question2" value="javascript" checked>
+						Yes
+					</label>
+				</div>
+				<div class="radio">
+						<label>
+							<input type="radio" name="question2" value="python">
+							No
+						</label>
+				</div>
+
+				<!-- Question 3 -->
+				<label>Will you be primarily building websites, apps or working with data analytics, machine learning, and math-intensive operations?</label>
+				<div class="radio">
+					<label>
+						<input type="radio" name="question3" value="javascript" checked>
+						Websites
+					</label>
+				</div>
+				<div class="radio">
+						<label>
+							<input type="radio" name="question3" value="python">
+							Data analytics, machine learning and math-intensive operations
+						</label>
+				</div>
+				<div class="radio">
+						<label>
+							<input type="radio" name="question3" value="swift">
+							Apps
+						</label>
+				</div>
+
+				<!-- Question 4 -->
+				<label>What is your favorite color?</label>
+				<div class="radio">
+					<label>
+						<input type="radio" name="question4" value="javascript" checked>
+						Yellow
+					</label>
+				</div>
+				<div class="radio">
+						<label>
+							<input type="radio" name="question4" value="python">
+							Blue and yellow
+						</label>
+				</div>
+				<div class="radio">
+						<label>
+							<input type="radio" name="question4" value="swift">
+							Orange
+						</label>
+				</div>
+
+				<!-- Question 5 -->
+				<label>Which of the following scenarios makes you most excited?</label>
+				<div class="radio">
+					<label>
+						<input type="radio" name="question5" value="javascript" checked>
+						Building a really cool website!
+					</label>
+				</div>
+				<div class="radio">
+						<label>
+							<input type="radio" name="question5" value="python">
+							Wrangling data!
+						</label>
+				</div>
+				<div class="radio">
+						<label>
+							<input type="radio" name="question5" value="swift">
+							Creating an iOS game!
+						</label>
+				</div>
+
+				
+			<button type="submit" class="btn-success">Go!</button>
+		</form>
+
+	</div>
 </body>
 </html>
