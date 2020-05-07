@@ -1,4 +1,4 @@
-# Notes.md
+# Notes
 
 #### Questions
 1. How do you prefer to define code blocks?
@@ -41,4 +41,5 @@
 
 #### ToDo
 - [x] Create questions and answers - 9:20 PM
-- [ ] Create form - 10:37 PM
+- [x] Create form - 10:37 PM
+- [ ] Write jQuery function
