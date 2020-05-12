@@ -42,4 +42,5 @@
 #### ToDo
 - [x] Create questions and answers - 9:20 PM
 - [x] Create form - 10:37 PM
-- [ ] Write jQuery function
+- [x] Write jQuery function - 9:54 PM
+- [ ] Replace answer if user submits the quiz again

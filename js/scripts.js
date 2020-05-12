@@ -82,6 +82,11 @@ $(document).ready(function() {
 		} else {
 			$("#result").append("Swift is the language for you!")
 		}
+		$("#scores").append("JavaScript score is: " + javascriptScore + "<br>")
+		$("#scores").append("Python score is: " + pythonScore + "<br>")
+		$("#scores").append("Swift score is: " + swiftScore + "<br>")
+
+
 
 		console.log("JS score: " + javascriptScore)
 		console.log("Python score: " + pythonScore)
