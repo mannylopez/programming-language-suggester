@@ -67,12 +67,20 @@ $(document).ready(function() {
 			console.log(swiftScore);
 		}
 
-		if (javascriptScore > pythonScore && javascriptScore > swiftScore) {
-			console.log("JS it is!")
+		if (javascriptScore === pythonScore || javascriptScore === swiftScore || pythonScore === swiftScore) {
+			if (javascriptScore === pythonScore) {
+				$("#result").append("JavaScript and Python are tied. Either is a good choice!")
+			} else if (javascriptScore === swiftScore) {
+				$("#result").append("JavaScript and Swift are tied. Either is a good choice! ")
+			} else {
+				$("#result").append("Python and Swift are tied. Either is a good choice!")
+			}
+		} else if (javascriptScore > pythonScore && javascriptScore > swiftScore) {
+			$("#result").append("JavaScript is the language for you!")
 		} else if (pythonScore > javascriptScore && pythonScore > swiftScore) {
-			console.log("Python it is!")
+			$("#result").append("Python is the language for you!")
 		} else {
-			console.log("Swift it is!")
+			$("#result").append("Swift is the language for you!")
 		}
 
 		console.log("JS score: " + javascriptScore)
